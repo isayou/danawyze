@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap');
+
+body {
+    background-color: #F1EAE7;
+}
+
+nav {
+    background-color: #F4C193;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 48px;
+    cursor: pointer;
+    font-family: 'Seymour One', sans-serif;
+}
+
+.sub-header {
+    background-color: #D87820;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.code-promo {
+    font-size: 16px;
+    color: #F1EAE7;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: 500;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.weight {
+    font-weight: 700;
+}
+
+.soulign {
+    text-decoration: underline;
+}

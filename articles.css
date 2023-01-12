@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #F4F4F4;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0px 50px 0px;
+}
+
+.read {
+    font-size: 14px;
+    margin: 5px 0px 0px 220px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.fleche {
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px 0px 3px;
+}
+
+article {
+    width:330px;
+    height: 520;
+    background:white;
+    margin:20px;
+    border-radius:50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+    overflow: hidden;
+}
+
+
+article:hover {
+    cursor:pointer;
+    transform:scale(1.08);
+}
+
+article {
+    width:330px;
+    height: 520px   ;
+    background:white;
+    margin:20px;
+    border-radius:50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16);
+    overflow: hidden;
+    transition:transform .4s;
+}
+
+.articlek {
+    padding: 50px 120px 0px 120px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mannequin {
+    height: 520px;
+    width: 353px;
+}
